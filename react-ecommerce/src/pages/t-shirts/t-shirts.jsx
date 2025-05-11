@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Category = () => {
+const tshirts = () => {
   return (
     <>
       <section className="page-header">
@@ -14,7 +14,7 @@ const Category = () => {
                   <li>
                     <Link to="/">Home</Link>
                   </li>
-                  <li className="active">Category</li>
+                  <li className="active">T-shirts</li>
                 </ol>
               </div>
             </div>
@@ -407,4 +407,4 @@ const Category = () => {
 };
 
 
-export default Category;
+export default tshirts;

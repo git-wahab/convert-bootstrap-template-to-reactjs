@@ -606,6 +606,13 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   padding-bottom: 35px;
   border-bottom: 1px solid #dedede;
 }
+
+@media (min-width: 1200px) {
+  .container .top-header-container {
+      width: 1300;
+  }
+}
+
 .top-header .dropdown-menu {
   left: auto;
   right: 0;

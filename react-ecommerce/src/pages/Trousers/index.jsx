@@ -2,16 +2,16 @@ import React from "react";
 import Header from "../../partials/Header";
 import Navbar from "../../partials/Navbar";
 import Footer from "../../partials/Footer";
-import Category from "./Category";
-const CategoryPage = () => {
+import Trousers from "./Trousers";
+const TrousersPage = () => {
     return (
         <>
         <Header />
         <Navbar />
-        <Category />
+        <Trousers />
         <Footer />
     </>
     )
 }
 
-export default CategoryPage;
+export default TrousersPage;

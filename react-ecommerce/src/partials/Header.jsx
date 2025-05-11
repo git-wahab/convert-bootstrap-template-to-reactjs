@@ -5,15 +5,9 @@ const Header = () => {
         <section className="top-header">
         <div className="container">
           <div className="row">
-            <div className="col-md-4 col-xs-12 col-sm-4">
-              <div className="contact-number">
-                <i className="tf-ion-ios-telephone"></i>
-                <span>+92-302-5328653</span>
-              </div>
-            </div>
-            <div className="col-md-4 col-xs-12 col-sm-4">
+            <div className="col-md-6 col-xs-6 col-sm-4">
               {/* Site Logo */}
-              <div className="logo text-center">
+              <div className="logo">
                 <a href="index.html">
                   <svg
                     width="135px"
@@ -49,7 +43,7 @@ const Header = () => {
                 </a>
               </div>
             </div>
-            <div className="col-md-4 col-xs-12 col-sm-4">
+            <div className="col-md-6 col-xs-6 col-sm-4">
               {/* Cart */}
               <ul className="top-menu text-right list-inline">
                 <li className="dropdown cart-nav dropdown-slide">
@@ -144,19 +138,8 @@ const Header = () => {
                     data-toggle="dropdown"
                     data-hover="dropdown"
                   >
-                    <i className="tf-ion-ios-search-strong"></i> Search
+                    <i className="tf-ion-android-person"></i> Login
                   </a>
-                  <ul className="dropdown-menu search-dropdown">
-                    <li>
-                      <form action="post">
-                        <input
-                          type="search"
-                          className="form-control"
-                          placeholder="Search..."
-                        />
-                      </form>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </div>

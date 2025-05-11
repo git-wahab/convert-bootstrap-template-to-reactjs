@@ -606,6 +606,11 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   padding-bottom: 35px;
   border-bottom: 1px solid #dedede;
 }
+@media (min-width: 1200px) {
+  .container {
+      width: 1300px !important;
+  }
+}
 .top-header .dropdown-menu {
   left: auto;
   right: 0;
@@ -977,6 +982,15 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   left: 0;
   bottom: 0;
 }
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  /* Inherit font/styles to match parent */
+  font: inherit;
+  color: inherit;
+}
 .product-item .product-thumb .preview-meta {
   position: absolute;
   text-align: center;
@@ -1003,9 +1017,6 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .product-item .product-thumb .preview-meta li a:hover, .product-item .product-thumb .preview-meta li span:hover {
   background: #000;
   color: #fff;
-}
-.product-item:hover .product-thumb:before {
-  opacity: 1;
 }
 .product-item:hover .preview-meta {
   opacity: 1;

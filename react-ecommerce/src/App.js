@@ -1,6 +1,9 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import HomePage from './pages/Home';
-import CategoryPage from './pages/Category';
+import Trousers from './pages/Trousers';
+import ProductDetail from './pages/ProductDetail';
+import Tshirts from './pages/t-shirts'
+
 
 function App() {
   return (
@@ -9,13 +12,13 @@ function App() {
       <Route path='/' element={<HomePage />} />
     </Routes>
     <Routes>
-      <Route path='/category/men' element={<CategoryPage />} />
+      <Route path='/t-shirts' element={< Tshirts/>} />
     </Routes>
     <Routes>
-      <Route path='/category/women' element={<CategoryPage />} />
+      <Route path='/trousers' element={<Trousers />} />
     </Routes>
     <Routes>
-      <Route path='/category/kids' element={<CategoryPage />} />
+      <Route path='/product/detail' element={<ProductDetail />} />
     </Routes>
     </BrowserRouter>
   )
